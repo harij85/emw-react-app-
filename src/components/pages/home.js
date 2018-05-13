@@ -16,11 +16,10 @@ class Home extends Component {
         Something that is talked about in our featured interviews. </p>
       <Link to="/Featured-Interview" className="btn btn-success">Read More</Link>
       </div>
+      </div>
 
 
 
-      <div id="curator-feed"><a href="https://curator.io" target="_blank" className="crt-logo crt-tag"></a></div>
-</div>
 
 
 

@@ -18,6 +18,8 @@ import Footer from './components/footer/footer';
 import Home from './components/pages/home';
 import Blog from './components/pages/blog';
 import Featured from './components/pages/featured';
+import Tetrahex from './components/pages/tetrahex'
+import EmwTV from './components/pages/emwtv';
 
 
 
@@ -27,6 +29,7 @@ import Featured from './components/pages/featured';
 //includes
 
 import './assets/css/style.css';
+import './assets/css/emwtv.css';
 
 
 
@@ -39,7 +42,9 @@ class App extends Component {
 
       <Route exact path='/' component={Home}/>
       <Route exact path='/Featured-Interview' component={Featured}/>
+      <Route exact path='/Tetrahex' component={Tetrahex}/>
       <Route exact path='/Blog' component={Blog}/>
+      <Route exact path='/EMWTV' component={EmwTV}/>
 
 
 

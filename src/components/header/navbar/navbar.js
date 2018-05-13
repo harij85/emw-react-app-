@@ -17,7 +17,7 @@ class Navbar extends Component {
 
 
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-<Link className="navbar-brand" to="/"><img src="https://lh3.google.com/u/1/d/1sZDm8TqoXvsFf9LPA0oQDl4NQ7m6OAvH=w2136-h1472-iv1" width="80"height="50"
+<Link className="navbar-brand" to="/"><img src="https://lh3.google.com/u/1/d/1sZDm8TqoXvsFf9LPA0oQDl4NQ7m6OAvH=w2136-h1472-iv1" alt="Electronic Music Wales logo" width="80"height="50"
 >
 </img></Link>
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,12 +35,16 @@ class Navbar extends Component {
     </a>
     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
       <Link to="/Featured-Interview" className="dropdown-item">An interview with Simon Parton</Link>
-      <a className="dropdown-item" href="#">An interview with Eädyth a Endaf</a>
+      <Link to="/Featured-Interview" className="dropdown-item">An interview with Eädyth a Endaf</Link>
+      <Link to="/Tetrahex" className="dropdown-item">An interview with Tetrahex</Link>
 
     </div>
     </li>
   <li className="nav-item">
     <Link to="/Blog" className="nav-link" >Blog</Link>
+  </li>
+  <li className="nav-item">
+    <Link to="/EMWTV" className="nav-link" >EMWTV</Link>
   </li>
   <li className="nav-item">
     <Link to="/Subscribe" className="nav-link" >Subscribe</Link>
